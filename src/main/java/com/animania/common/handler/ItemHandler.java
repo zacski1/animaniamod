@@ -31,7 +31,6 @@ import com.animania.common.items.ItemRidingCrop;
 import com.animania.common.items.ItemTiller;
 import com.animania.common.items.ItemTruffleSoup;
 import com.animania.common.items.ItemWagon;
-import com.animania.compat.cofh.TEMorbHandler;
 import com.animania.config.AnimaniaConfig;
 
 import net.minecraft.entity.EntityList;
@@ -308,12 +307,6 @@ public class ItemHandler
 				}
 			}
 
-			if (Loader.isModLoaded("thermalexpansion"))
-			{
-				TEMorbHandler.reloadMorbs();
-			}
-
-			hasSetEggColors = true;
 		}
 	}
 
